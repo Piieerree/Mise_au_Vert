@@ -63,7 +63,7 @@ class ScriptEspacePension{
                 $this->nom_responsable = $row['responsable_pension'];
                 $this->adresse_pension = $row['adresse_pension'];
                 $this->ville_pension = $row['ville_pension'];
-                $this->email_entrust = $row['email'];
+                $this->email = $row['email'];
                 $this->telephone_pension = $row['telephne_pension'];
                 
                 header('location: ../espacePension.php');
